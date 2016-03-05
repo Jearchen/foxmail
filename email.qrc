@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/close.png</file>
+        <file>images/cmpRightClose_hover.png</file>
+        <file>images/cmpRightClose_normal.png</file>
+        <file>images/cmpRightClose_press.png</file>
+        <file>images/frame.png</file>
+        <file>images/maximize.png</file>
+        <file>images/minimize.png</file>
+        <file>emailui.qss</file>
+        <file>images/close_hover.png</file>
+        <file>images/close_normal.png</file>
+        <file>images/maximize_hover.png</file>
+        <file>images/maximize_normal.png</file>
+        <file>images/minimize_hover.png</file>
+        <file>images/minimize_normal.png</file>
+        <file>images/menu.png</file>
+        <file>images/delete.png</file>
+        <file>images/search_active.png</file>
+        <file>images/search_icon.png</file>
+        <file>images/search_normal.png</file>
+        <file>images/frame2.png</file>
+        <file>images/attach.png</file>
+        <file>images/hugeattach.png</file>
+        <file>images/save.png</file>
+        <file>images/send.png</file>
+        <file>images/compose_edit_normal.png</file>
+        <file>images/frame4.png</file>
+        <file>images/frame5.png</file>
+        <file>images/attach_img.png</file>
+        <file>images/check.png</file>
+        <file>images/compose.png</file>
+        <file>images/options.bmp</file>
+        <file>images/mail.png</file>
+        <file>images/getmail.gif</file>
+    </qresource>
+</RCC>

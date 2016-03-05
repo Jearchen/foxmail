@@ -1,0 +1,66 @@
+*{
+  font-size:12px;
+  font-family:"Arial";
+}
+QPushButton{
+background:transparent;
+}
+
+QToolButton{
+background:transparent;
+}
+
+QComboBox#from{
+    background: transparent;
+    color:rgb(255, 255, 255);
+    selection-background-color:transparent;
+}
+
+QPushButton#close{
+    border-image:url(://images/close_normal.png);
+}
+QPushButton#close:pressed{
+    border-image:url(://images/close.png);
+}
+QPushButton#close:hover:!pressed{
+    border-image:url(://images/close_hover.png);
+}
+
+QPushButton#maximize{
+    border-image:url(://images/maximize_normal.png);
+}
+QPushButton#maximize:pressed{
+    border-image:url(://images/maximize.png);
+}
+QPushButton#maximize:hover:!pressed{
+    border-image:url(://images/maximize_hover.png);
+}
+
+QPushButton#minimize{
+    border-image:url(://images/minimize_normal.png);
+}
+QPushButton#minimize:pressed{
+    border-image:url(://images/minimize.png);
+}
+QPushButton#minimize:hover:!pressed{
+    border-image:url(://images/minimize_hover.png);
+}
+
+QTreeWidget#accounttable{
+    background: transparent;
+}
+
+QLineEdit#search{
+border: 3px solid rgba(0,0,0,0);
+border-radius:8px
+}
+
+QWebView#mailcontent{
+    background: transparent;
+}
+
+QToolButton#getmail{
+    background: transparent;
+}
+
+
