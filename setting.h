@@ -2,7 +2,8 @@
 #define SETTING_H
 #include<QWidget>
 #include<QtGui>
-
+#include<QListWidgetItem>
+#include<QLabel>
 class setting:public QWidget
 {
     Q_OBJECT

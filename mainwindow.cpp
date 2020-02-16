@@ -10,7 +10,7 @@
 #include "compose.h"
 #include "checkmail.h"
 #include "account.h"
-
+#include<QFileDialog>
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
 {
     resize(1092,640);

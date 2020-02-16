@@ -9,9 +9,13 @@
 #include <QPaintEvent>
 #include <QTableWidget>
 #include <QFile>
-#include <QtWebKit/QWebFrame>
-#include <QtWebKit/QWebView>
-
+//#include <QtWebFrame>
+//#include <QtWebView>
+#include <QTreeWidgetItem>
+#include <QSystemTrayIcon>
+#include <QToolButton>
+#include <QPushButton>
+#include <QTextBrowser>
 class MainWindow:public QMainWindow
 {
     Q_OBJECT

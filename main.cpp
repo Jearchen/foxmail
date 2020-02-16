@@ -12,9 +12,8 @@ int main(int argc, char *argv[])
     a.setStyleSheet(qss.readAll());
 
     qss.close();
-    QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF-8"));//显示中文
-    QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8"));
-
+//    QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF-8"));//显示中文
+//    QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8"));
     MainWindow w;
     w.show();
     

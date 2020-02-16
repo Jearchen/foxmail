@@ -4,10 +4,11 @@
 #include<QtGui>
 #include<mainwindow.h>
 #include<QFile>
-#include <QTcpSocket>
+#include<QTcpSocket>
+#include<QComboBox>
+#include<QLabel>
 #include "setting.h"
 #include "mainwindow.h"
-
 class account:public QWidget
 {
      Q_OBJECT

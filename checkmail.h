@@ -6,7 +6,7 @@
 #include "message.h"
 #include "mailheader.h"
 #include "pop3.h"
-
+#include<QLabel>
 class checkmail:public QDialog
 {
     Q_OBJECT

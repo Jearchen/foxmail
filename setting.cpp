@@ -7,6 +7,8 @@
 #include <QMouseEvent>
 #include "account.h"
 #include <QDir>
+#include<QLineEdit>
+
 
 setting::setting(QWidget *parent): QWidget(parent,Qt::FramelessWindowHint)
 {

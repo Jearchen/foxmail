@@ -74,7 +74,7 @@ QString Message::fromBase64(QString string)
 {
     if(!string.contains("=?"))
         return string;
-    QByteArray content=string.toAscii();
+    QByteArray content=string.toLatin1();
     QList<QByteArray> s;
     s=content.split('?');
     QByteArray read1,read2;
@@ -88,12 +88,12 @@ QString Message::fromBase64(QString string)
 
 QString Message::getDecoded(QString content,QString charset,QString encoding)
 {
-    QTextCodec *tc=QTextCodec::codecForName(charset.toAscii());
+    QTextCodec *tc=QTextCodec::codecForName(charset.toLatin1());
     QByteArray content1;
     if(encoding=="base64")
-        content1=QByteArray::fromBase64(content.toAscii());
+        content1=QByteArray::fromBase64(content.toLatin1());
     else
-        content1=QByteArray::fromHex(content.toAscii());
+        content1=QByteArray::fromHex(content.toLatin1());
     QString str=tc->toUnicode(content1);
     return str;
 }
@@ -105,7 +105,7 @@ QString Message::parted(QString content)
     QString mechanism=getEncodingType(content);
     content=getContent(content);
     if(mechanism=="quoted-printable")
-        decodedContent=QByteArray::fromHex(content.toAscii());
+        decodedContent=QByteArray::fromHex(content.toLatin1());
     else if(contentType.contains("text")){
         decodedContent=decodedContent.append(getText(content));
     }
@@ -170,7 +170,7 @@ QString Message::getDecodedMail()
             i+=3;
         }else{
             if (pSrc.at(i)=='='){       // 是编码字节
-                pSrc.at(i+1).toAscii();
+                pSrc.at(i+1).toLatin1();
                 //replace(pSrc,"=%02X",pDst);
                 pDst++;
                 pSrc+=3;

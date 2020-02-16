@@ -3,7 +3,7 @@
 
 #include <QDialog>
 #include <QtGui>
-
+#include <QLabel>
 class tipDialog : public QDialog
 {
     Q_OBJECT

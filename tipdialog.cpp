@@ -1,4 +1,5 @@
 #include "tipdialog.h"
+#include <QPushButton>
 
 tipDialog::tipDialog(QWidget *parent) : QDialog(parent,Qt::FramelessWindowHint)
 {

@@ -3,8 +3,11 @@
 #include<QWidget>
 #include<QtGui>
 #include<QDialog>
-
-
+#include<QLineEdit>
+#include<QTextEdit>
+#include<QListWidget>
+#include<QComboBox>
+#include<QLabel>
 class compose:public QWidget
 {
     Q_OBJECT

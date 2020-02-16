@@ -1,7 +1,9 @@
 #include "compose.h"
 #include "smtp.h"
 #include "tipdialog.h"
-
+#include<QPushButton>
+#include<QToolButton>
+#include<QFileDialog>
 compose::compose(QWidget *parent):QWidget(parent,Qt::FramelessWindowHint)
 {
     resize(1092,640);

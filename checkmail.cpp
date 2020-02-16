@@ -1,11 +1,12 @@
 #include "checkmail.h"
-#include <QtNetwork>
-
+#include<QtNetwork>
+#include<QPushButton>
 checkmail::checkmail(QWidget *parent):QDialog(parent,Qt::FramelessWindowHint)
 {
     QCoreApplication::processEvents();
 
-    resize(460,189);
+    QWidget::resize(460,189);
+
 
     //生成一张位图
     QBitmap objBitmap(size());

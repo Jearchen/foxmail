@@ -3,7 +3,7 @@
 #include <QKeyEvent>
 #include "smtp.h"
 #include <QDir>
-
+#include<QLineEdit>
 account::account(QWidget *parent):QWidget(parent,Qt::FramelessWindowHint)
 {
 
@@ -197,7 +197,6 @@ bool account::accountexit()
        }
      }
     file.close();
-
 }
 
 void account::checkaccount()
